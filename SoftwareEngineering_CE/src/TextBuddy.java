@@ -134,7 +134,7 @@ public class TextBuddy {
 		checkArgSize(args);
 		readLegalFile(args);
 		printMessage();
-		excuteUntilExit();
+		//excuteUntilExit();
 	}
 
 	/**
@@ -446,7 +446,7 @@ public class TextBuddy {
 			String lineStr = br.readLine();
 			while (lineStr != null) {
 				lineNum++;
-				texts.add(lineStr);
+				//texts.add(lineStr);
 				lineStr = br.readLine();
 			}
 			br.close();
